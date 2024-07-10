@@ -1,0 +1,76 @@
+{
+  "display": {
+      "icon": {
+          "id": "minecraft:armor_stand"
+      },
+      "title": "Armor Stand Arms                                                                                                                  ",
+      "description": [
+        "",
+        {
+            "text": "Adds arms to armor stands\n",
+            "color": "white"
+        },
+        {
+            "text": "\n",
+            "color": "yellow"
+        },
+        {
+            "text": "/trigger",
+            "color": "yellow"
+        },
+        {
+            "text": " help.armorstandarms\n",
+            "color": "yellow"
+        },
+        {
+            "text": "for help\n",
+            "color": "white"
+        },
+        {
+            "text": "\n",
+            "color": "green"
+        },
+        {
+            "text": "Datapack version: ",
+            "color": "dark_green"
+        },
+        {
+            "text": "v.2.4.0",
+            "color": "green"
+        },
+        {
+            "text": "\n",
+            "color": "green"
+        },
+        {
+            "text": "Game version: ",
+            "color": "dark_green"
+        },
+        {
+            "text": "1.21",
+            "color": "green"
+        },
+        {
+            "text": "\n",
+            "color": "green"
+        },
+        {
+            "text": "\n",
+            "color": "green"
+        },
+        {
+            "text": "modrinth.com/datapack/armor-stand-arms",
+            "color": "dark_purple"
+        }
+    ],
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false
+  },
+  "parent": "jodek:utility",
+  "criteria": {
+      "tick": {
+          "trigger": "minecraft:tick"
+      }
+  }
+}
