@@ -1,5 +1,6 @@
 {
   "values": [
-  "armorstandarms:load"
+  "armorstandarms:app/setup",
+  "armorstandarms:app/load_message"
 ]
 }
