@@ -46,7 +46,6 @@ For that to work without complications: Go as near as you can to the armor stand
 
 ## Showcase
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/L4PG3mm0BKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 [![ArmorStandArmsShowcase](https://img.youtube.com/vi/L4PG3mm0BKs/0.jpg)](https://www.youtube.com/watch?v=L4PG3mm0BKs)
 
 ## Guides
