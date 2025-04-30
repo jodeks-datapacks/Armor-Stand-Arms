@@ -1,10 +1,11 @@
-#> armorstandarms:image/process/generate
+#> armorstandarms:image/generate
 #
 # This function generates the image data.
 
 data modify storage armorstandarms:image current.image_data set from storage armorstandarms:image image_data
 data modify storage armorstandarms:image current.description set from storage armorstandarms:image description
-data modify storage armorstandarms:image current.pixel_character set from storage armorstandarms:image pixel_character.pixel
+data modify storage armorstandarms:image current.pixel_character set \
+  from storage armorstandarms:image pixel_character.pixel
 
 # Reset index score
 scoreboard players set $index.image_data armorstandarms.image 0
@@ -24,3 +25,4 @@ function armorstandarms:image/process/append/line_break
 function armorstandarms:image/process/loop_over_image_data
 # Add spacing on bottom
 function armorstandarms:image/process/append/line_break
+ 

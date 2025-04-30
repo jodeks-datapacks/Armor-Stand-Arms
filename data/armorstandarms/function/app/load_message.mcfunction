@@ -4,86 +4,86 @@
 tellraw @a [\
   "",\
   {\
-    text: "[",\
-    color: "#aaaaaa"\
+    "text": "[",\
+    "color": "#aaaaaa"\
   },\
   {\
-    text: "Armor Stand Arms",\
-    hover_event: {\
-      action: "show_text",\
-      value: [\
+    "text": "Armor Stand Arms",\
+    "hoverEvent": {\
+      "action": "show_text",\
+      "contents": [\
         {\
-          nbt:"tellraw[]",\
-          storage: "armorstandarms:image",\
-          interpret: true,\
-          separator: ""\
+          "nbt":"tellraw[]",\
+          "storage": "armorstandarms:image",\
+          "interpret": true,\
+          "separator": ""\
         }\
       ]\
     },\
-    click_event:\
+    "clickEvent":\
     {\
-    action:"open_url",\
-    url:"https://modrinth.com/datapack/armor-stand-arms/"\
+    "action":"open_url",\
+    "value":"https://modrinth.com/datapack/armor-stand-arms/"\
     }\
   },\
   {\
-    text: "]",\
-    color: "#aaaaaa",\
-    hover_event: {\
-      action: "show_text",\
-      value: [\
+    "text": "]",\
+    "color": "#aaaaaa",\
+    "hoverEvent": {\
+      "action": "show_text",\
+      "contents": [\
         {\
-          nbt:"tellraw[]",\
-          storage: "armorstandarms:image",\
-          interpret: true,\
-          separator: ""\
+          "nbt":"tellraw[]",\
+          "storage": "armorstandarms:image",\
+          "interpret": true,\
+          "separator": ""\
         }\
       ]\
     },\
-    click_event:\
+    "clickEvent":\
     {\
-    action:"open_url",\
-    url:"https://modrinth.com/datapack/armor-stand-arms/"\
+    "action":"open_url",\
+    "value":"https://modrinth.com/datapack/armor-stand-arms/"\
     }\
   },\
   {\
-    text: " loaded! ",\
-    color: "#ffffff",\
-    hover_event: {\
-      action: "show_text",\
-      value: [\
+    "text": " loaded! ",\
+    "color": "#ffffff",\
+    "hoverEvent": {\
+      "action": "show_text",\
+      "contents": [\
         {\
-          nbt:"tellraw[]",\
-          storage: "armorstandarms:image",\
-          interpret: true,\
-          separator: ""\
+          "nbt":"tellraw[]",\
+          "storage": "armorstandarms:image",\
+          "interpret": true,\
+          "separator": ""\
         }\
       ]\
     },\
-    click_event:\
+    "clickEvent":\
     {\
-    action:"open_url",\
-    url:"https://modrinth.com/datapack/armor-stand-arms/"\
+    "action":"open_url",\
+    "value":"https://modrinth.com/datapack/armor-stand-arms/"\
     }\
   },\
   {\
-    text: "hover for more info",\
-    color: "#929796",\
-    hover_event: {\
-      action: "show_text",\
-      value: [\
+    "text": "hover for more info",\
+    "color": "#929796",\
+    "hoverEvent": {\
+      "action": "show_text",\
+      "contents": [\
         {\
-          nbt:"tellraw[]",\
-          storage: "armorstandarms:image",\
-          interpret: true,\
-          separator: ""\
+          "nbt":"tellraw[]",\
+          "storage": "armorstandarms:image",\
+          "interpret": true,\
+          "separator": ""\
         }\
       ]\
     },\
-    click_event:\
+    "clickEvent":\
     {\
-    action:"open_url",\
-    url:"https://modrinth.com/datapack/armor-stand-arms/"\
+    "action":"open_url",\
+    "value":"https://modrinth.com/datapack/armor-stand-arms/"\
     }\
   }\
 ]

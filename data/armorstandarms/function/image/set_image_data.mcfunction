@@ -28,8 +28,8 @@ $data modify storage armorstandarms:image height set value $(height)
 $data modify storage armorstandarms:image background_color set value "$(background_color)"
 $data modify storage armorstandarms:image description set value $(description)
 
-data modify storage armorstandarms:image pixel_character.blank set value "　"
-data modify storage armorstandarms:image pixel_character.pixel set value "▌▌"
-data modify storage armorstandarms:image pixel_character.line_break set value '\n'
+data modify storage armorstandarms:image pixel_character.blank set value '"　"'
+data modify storage armorstandarms:image pixel_character.pixel set value '"▌▌"'
+data modify storage armorstandarms:image pixel_character.line_break set value '"\\n"'
 
 function armorstandarms:image/process/generate

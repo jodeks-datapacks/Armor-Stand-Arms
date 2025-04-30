@@ -19,10 +19,10 @@ execute if score $index.column armorstandarms.image matches 1 run \
   function armorstandarms:image/process/append/blank
 
 # Append colored pixel
-execute unless data storage armorstandarms:image current{pixel_color: ''} run \
+execute unless data storage armorstandarms:image current{pixel_color: ""} run \
   function armorstandarms:image/process/append/pixel
 # Append background pixel
-execute if data storage armorstandarms:image current{pixel_color: ''} run \
+execute if data storage armorstandarms:image current{pixel_color: ""} run \
   function armorstandarms:image/process/append/background
 
 # Append description

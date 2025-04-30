@@ -1,38 +1,6 @@
 {
   "pack": {
-    "pack_format": 71,
-    "description": [
-      {
-        "text": "\"Armor Stand Arms\" (armorstandarms)"
-      },
-      "\n",
-      {
-        "text": "Adds arms to armor stands by default",
-        "color": "#aaaaaa"
-      },
-      "\n\n",
-      {
-        "text": "Version "
-      },
-      {
-        "text": "2.5.0",
-        "color": "#55ff55"
-      },
-      {
-        "text": " for Minecraft "
-      },
-      {
-        "text": "1.21.5",
-        "color": "#55ff55"
-      },
-      "\n",
-      {
-        "text": "by "
-      },
-      {
-        "text": "Jodek",
-        "color": "#ffff55"
-      }
-    ]
+    "pack_format": 61,
+    "description": "Adds arms to armor stands - [1.21] - v.2.5.0"
   }
 }

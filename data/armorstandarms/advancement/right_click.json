@@ -5,7 +5,7 @@
       "conditions": {
         "entity": {
           "type": "minecraft:interaction",
-          "nbt": "{data:{Marker:1b}}"
+          "nbt": "{Tags:['Marker']}"
         }
       }
     }

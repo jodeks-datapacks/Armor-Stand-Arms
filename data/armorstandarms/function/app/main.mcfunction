@@ -19,6 +19,5 @@ execute as @a[predicate=!armorstandarms:looking_at_armor_stand] run scoreboard p
 execute if score &start riding_cast_temp matches 0 as @a[predicate=armorstandarms:looking_at_armor_stand] as @s at @s anchored eyes positioned ^ ^ ^ anchored feet run function armorstandarms:app/raycast/start_ray
 
 
-
 execute as @a[predicate=!armorstandarms:looking_at_armor_stand] if score &check riding_cast_temp matches 1 run function armorstandarms:app/raycast/kill_interaction
 
