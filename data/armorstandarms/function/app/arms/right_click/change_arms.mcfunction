@@ -1,0 +1,3 @@
+$execute as @e[type=interaction,nbt={data:{armorstandarms.interaction:1b,armorstandarms.player_uuid:$(UUID)}}] at @s as @e[type=armor_stand,dx=0,dy=0,dz=0,limit=1,nbt={ShowArms:0b}] run return run data modify entity @s ShowArms set value 1b
+
+$execute as @e[type=interaction,nbt={data:{armorstandarms.interaction:1b,armorstandarms.player_uuid:$(UUID)}}] at @s as @e[type=armor_stand,dx=0,dy=0,dz=0,limit=1,nbt={ShowArms:1b}] run data modify entity @s ShowArms set value 0b
