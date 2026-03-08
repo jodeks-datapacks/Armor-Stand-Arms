@@ -17,9 +17,7 @@ scoreboard objectives add armorstandarms.check dummy
 # Print the image
 function armorstandarms:config/image
 
-function armorstandarms:config/defaults
-
-execute unless score &loaded armorstandarms.check matches 1 run function armorstandarms:config/set_default
+function armorstandarms:config/set_default
 
 scoreboard players set &loaded armorstandarms.check 1
 

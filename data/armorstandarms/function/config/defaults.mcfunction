@@ -1,1 +1,0 @@
-execute unless score &right_click_arms armorstandarms.config = &right_click_arms armorstandarms.config run scoreboard players set &right_click_arms armorstandarms.config 1 
