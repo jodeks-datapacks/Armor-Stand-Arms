@@ -16,7 +16,7 @@ function armorstandarms:image/set_image_data {\
     "Armor Stand Arms",\
     {text: "Armor stands have arms by default", color: "#aaaaaa"},\
     "",\
-    [{text: "Datapack version: ", color: "#00a800"}, {text: "v2.5.4", color: "#54fc54"}],\
+    [{text: "Datapack version: ", color: "#00a800"}, {text: "v2.5.5", color: "#54fc54"}],\
     [{text: "Game version: ", color: "#00a800"}, {text: "1.21.6+", color: "#54fc54"}],\
     "",\
     [{text: "By ", color: "#fcfcfc"}, {text: "Jodek", color: "#fcfc54"}],\
