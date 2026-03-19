@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "right_click": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{data:{armor_stand_arms.interaction:1b}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "armor_stand_arms:app/arms/right_click/right_click"
+  }
+}

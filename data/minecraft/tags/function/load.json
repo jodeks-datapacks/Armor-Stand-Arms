@@ -1,6 +1,6 @@
 {
   "values": [
-    "armorstandarms:app/setup",
-    "armorstandarms:app/load_message"
+    "armor_stand_arms:app/setup",
+    "armor_stand_arms:app/load_message"
   ]
 }

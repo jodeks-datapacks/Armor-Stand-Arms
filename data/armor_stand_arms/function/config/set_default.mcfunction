@@ -1,0 +1,3 @@
+execute unless data storage armor_stand_arms:root data.right_click_arms run data modify storage armor_stand_arms:root data.right_click_arms set value 1
+data modify storage armor_stand_arms:root data.dialog_right_click_arms set value "$(dialog_right_click_arms)"
+execute unless score &right_click_arms armor_stand_arms.config = &right_click_arms armor_stand_arms.config run scoreboard players set &right_click_arms armor_stand_arms.config 1 

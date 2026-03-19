@@ -20,20 +20,20 @@
 
 **2.** [1.21+] Shift + right click an armor stand to show / hide the arms
 
-**3.** [1.21.6+] Settings with `/trigger armorstandarms.config`
+**3.** [1.21.6+] Settings with `/trigger armor_stand_arms.config`
 
   - Enable / disable the shift + right click feature
 
 **Remove all arms**
 
 ```
-/function armorstandarms:app/arms/remove_all
+/function armor_stand_arms:app/arms/remove_all
 ```
 
 **Show all arms**
 
 ```
-/function armorstandarms:app/arms/show_all
+/function armor_stand_arms:app/arms/show_all
 ```
 
 ## Showcase

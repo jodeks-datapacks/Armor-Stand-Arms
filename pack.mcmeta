@@ -7,7 +7,7 @@
 		"supported_formats": [80,999],
     "description": [
       {
-        "text": "\"Armor Stand Arms\" (armorstandarms)"
+        "text": "\"Armor Stand Arms\" (armor_stand_arms)"
       },
       "\n",
       {
@@ -19,7 +19,7 @@
         "text": "Version "
       },
       {
-        "text": "2.5.5",
+        "text": "2.5.6",
         "color": "#55ff55"
       },
       {

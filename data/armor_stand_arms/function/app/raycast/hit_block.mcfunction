@@ -1,0 +1,1 @@
+scoreboard players set @a[tag=armor_stand_arms.riding_ray] armor_stand_arms.raycast_hit 1

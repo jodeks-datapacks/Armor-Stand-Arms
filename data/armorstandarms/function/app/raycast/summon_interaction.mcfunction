@@ -1,1 +1,0 @@
-$summon interaction ~ ~ ~ {width:0.51f,height:2f,response:1b,data:{armorstandarms.interaction:1b,armorstandarms.player_uuid:$(UUID)}}

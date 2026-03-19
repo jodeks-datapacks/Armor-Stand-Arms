@@ -5,37 +5,29 @@
     },
     "title": "Armor Stand Arms                  ",
     "description": [
-      "",
       {
-        "text": "Adds arms to armor stands\n",
+        "translate": "armor_stand_arms.description",
+        "fallback": "Adds arms to armor stands",
         "color": "white"
       },
       {
-        "text": "/trigger armorstandarms.config",
-        "color": "yellow"
+        "text": "\n\n"
       },
       {
-        "text": "\n",
-        "color": "yellow"
-      },
-      {
-        "text": "\n",
-        "color": "yellow"
-      },
-      {
-        "text": "Datapack version: ",
+        "translate": "jodek.datapack_version",
+        "fallback": "Datapack version: ",
         "color": "dark_green"
       },
       {
-        "text": "v2.5.5",
+        "text": "v2.5.6",
         "color": "green"
       },
       {
-        "text": "\n",
-        "color": "green"
+        "text": "\n"
       },
       {
-        "text": "Game version: ",
+        "translate": "jodek.game_version",
+        "fallback": "Game version: ",
         "color": "dark_green"
       },
       {
@@ -43,12 +35,7 @@
         "color": "green"
       },
       {
-        "text": "\n",
-        "color": "green"
-      },
-      {
-        "text": "\n",
-        "color": "green"
+        "text": "\n\n"
       },
       {
         "text": "modrinth.com/datapack/armor-stand-arms",
@@ -57,12 +44,29 @@
     ],
     "frame": "task",
     "show_toast": false,
-    "announce_to_chat": false
+    "announce_to_chat": false,
+    "hidden": true
   },
   "parent": "jodek:utility",
   "criteria": {
     "tick": {
-      "trigger": "minecraft:tick"
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "&armor_stand_arms_advancements"
+              },
+              "score": "jodek.config"
+            },
+            "range": 1
+          }
+        ]
+      }
     }
   }
 }

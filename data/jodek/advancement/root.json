@@ -16,11 +16,12 @@
     "title": "Jodek's Datapacks        ",
     "description": [
       {
-        "text": "Creator of vanilla friendly datapacks\n",
+        "translate": "jodek.advancement.root.description",
+        "fallback": "Creator of vanilla friendly datapacks",
         "color": "white"
       },
       {
-        "text": "\n",
+        "text": "\n\n",
         "color": "white"
       },
       {
@@ -31,11 +32,28 @@
     "background": "minecraft:block/flowering_azalea_leaves",
     "frame": "challenge",
     "show_toast": false,
-    "announce_to_chat": false
+    "announce_to_chat": false,
+    "hidden": true
   },
   "criteria": {
     "tick": {
-      "trigger": "minecraft:tick"
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "&armor_stand_arms_advancements"
+              },
+              "score": "jodek.config"
+            },
+            "range": 1
+          }
+        ]
+      }
     }
   }
 }

@@ -1,0 +1,20 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type_specific": {
+      "type": "minecraft:player",
+      "looking_at": {
+        "type": "#armor_stand_arms:armor_stand_interact"
+      },
+      "input": {
+        "sneak": true
+      }
+    },
+    "equipment": {
+      "mainhand": {
+        "items": "minecraft:air"
+      }
+    }
+  }
+}

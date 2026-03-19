@@ -1,0 +1,1 @@
+execute if score @a[tag=armor_stand_arms.riding_ray,limit=1] armor_stand_arms.raycast_hit matches 0 positioned ~-0.9 ~-0.9 ~-0.9 if entity @s[dx=0] positioned ~0.95 ~0.95 ~0.95 run function armor_stand_arms:app/raycast/hit_entity
