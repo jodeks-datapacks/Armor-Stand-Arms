@@ -2,13 +2,13 @@
 # Called on load
 
 execute if score &armor_stand_arms_load_message jodek.config matches 1 run tellraw @a [\
-  "",\
   {\
     text: "[",\
     color: "#aaaaaa"\
   },\
   {\
     text: "Armor Stand Arms",\
+    color: "#ffffff",\
     hover_event: {\
       action: "show_text",\
       value: [\
