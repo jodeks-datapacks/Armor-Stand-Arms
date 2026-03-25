@@ -1,10 +1,10 @@
 {
   "pack": {
-		"min_format": [80,0],
-		"max_format": [999,0],
+    "min_format": [80, 0],
+    "max_format": [999, 0],
 
-		"pack_format": 80,
-		"supported_formats": [80,999],
+    "pack_format": 80,
+    "supported_formats": [80, 999],
     "description": [
       {
         "text": "\"Armor Stand Arms\" (armor_stand_arms)"
@@ -19,7 +19,7 @@
         "text": "Version "
       },
       {
-        "text": "2.5.6",
+        "text": "2.5.7",
         "color": "#55ff55"
       },
       {
