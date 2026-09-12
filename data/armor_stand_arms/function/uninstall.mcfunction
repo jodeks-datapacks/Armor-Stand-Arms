@@ -6,10 +6,7 @@ execute as @e[type=armor_stand] run data merge entity @s {ShowArms:0b}
 tag @e remove armor_stand_arms.no_arms_all
 tag @e remove armor_stand_arms.no_arms
 
-data remove storage armor_stand_arms:image data
 data remove storage armor_stand_arms:root data
-
-scoreboard objectives remove armor_stand_arms.image
 
 scoreboard objectives remove armor_stand_arms.placed 
 

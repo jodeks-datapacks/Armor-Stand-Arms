@@ -9,12 +9,6 @@
       {
         "text": "\"Armor Stand Arms\" (armor_stand_arms)"
       },
-      "\n",
-      {
-        "translate": "armor_stand_arms.description",
-        "fallback": "Adds arms to armor stands by default",
-        "color": "#aaaaaa"
-      },
       "\n\n",
       {
         "translate": "jodek.version",
