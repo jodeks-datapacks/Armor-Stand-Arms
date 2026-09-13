@@ -1,20 +1,20 @@
 {
-  "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "type_specific": {
-      "type": "minecraft:player",
+    "minecraft:entity_type": "minecraft:player",
+    "minecraft:type_specific/player": {
       "looking_at": {
-        "type": "#armor_stand_arms:armor_stand_interact"
+        "minecraft:entity_type": "#armor_stand_arms:armor_stand_interact"
       },
       "input": {
         "sneak": true
       }
     },
-    "equipment": {
+    "minecraft:equipment": {
       "mainhand": {
         "items": "minecraft:air"
       }
     }
-  }
+  },
+  "type": "minecraft:entity_properties"
 }

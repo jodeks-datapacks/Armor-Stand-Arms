@@ -4,8 +4,16 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:interaction",
-          "nbt": "{data:{armor_stand_arms.interaction:1b}}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:interaction",
+            "minecraft:components": {
+              "minecraft:custom_data": {
+                "armor_stand_arms.interaction": true
+              }
+            }
+          }
         }
       }
     }
